@@ -15,7 +15,7 @@ st.sidebar.title("🔐 Login")
 username = st.sidebar.text_input("Username")
 password = st.sidebar.text_input("Password", type="password")
 
-if username == "kunal" and password == "1234":
+if username == "kunal" and password == "12345":
 
     st.sidebar.success("Login Successful ✅")
 
